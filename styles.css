@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #171717;
+}
+
+.card{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: #25252555;
+    border-radius: 12px;
+    border: #323232 solid 2px;
+}
+
+.input{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 7px;
+    column-gap: 12px;
+}
+
+.input input{
+    width: 70%;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 7px;
+    border: none;
+    background-color: #323232;
+    color: rgb(211, 137, 0);
+}
+
+.input button{
+    background-color: #323232;
+    border: none;
+    border-radius: 7px;
+    height: 55px;
+    width: 15%;
+    cursor: pointer;
+}
+.input button:hover{
+    background-color: #3b3b3b;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgb(211, 137, 0);
+}
+
+.temp{
+    font-size: 3em;
+    padding: 15px;
+}
+
+.city-name{
+    font-size: 2.2em;
+    padding: 15px;
+}
+
+.cols{
+    width: 80%;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 14px;
+}
+
+.cols>div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+    justify-content: center;
+    align-items: center;
+    font-family: "TASA Explorer" sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.cols p{
+    text-align: center;
+    font-size: 1.15em;
+}
+
+.cols img{
+    height: 70%;
+    width: 70%;
+}
+
+.error{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    width: 100%;
+    padding-inline: 25px;
+    color: rgb(211, 137, 0);
+    margin-bottom: 25px;
+}
+
+.error img{
+    height: 75%;
+}
+
+.error p{
+    font-size: 1.2rem;
+}
+
+.hidden{
+    display: none;
+}
